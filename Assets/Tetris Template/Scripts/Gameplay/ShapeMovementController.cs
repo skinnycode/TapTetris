@@ -84,4 +84,9 @@ public class ShapeMovementController : MonoBehaviour {
     {
         transitionInterval = fastTransitionInterval;
     }
+
+    public void NormalFall()
+    {
+        transitionInterval = 0.8f;
+    }
 }
